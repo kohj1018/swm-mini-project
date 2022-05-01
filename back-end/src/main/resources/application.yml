@@ -1,0 +1,37 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:test
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+  profiles:
+    active: prod
+
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 912146475062-ma0j298gt60m6n2l3igfsmpmrfvc34f4.apps.googleusercontent.com
+            client-secret: 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
+            scope: profile,email
+jwt:
+  # SECRET: echo 'software-maestro-mini-project-49-today-meal-sns-jwt-secret-key-with-base64' | base64
+  secret: c29mdHdhcmUtbWFlc3Ryby1taW5pLXByb2plY3QtNDktdG9kYXktbWVhbC1zbnMtand0LXNlY3JldC1rZXktd2l0aC1iYXNlNjQK
+  token-expire-time: 604800000
+
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: debug
+#    root: trace
+

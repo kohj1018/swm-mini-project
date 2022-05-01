@@ -1,0 +1,68 @@
+.frame_4 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    /* 방향이 row 기준: 세로 중앙 정렬*/
+    height: 80vh;
+    width: 621px;
+    background-color: #ffffff;
+}
+
+
+.img_1 {
+    height: 30px;
+    width: 37px;
+    background-color: #ffffff;
+}
+
+.cloud_uploading_icon {
+    height: 56px;
+    width: 56px;
+    background-color: #ffffff;
+}
+
+.img_2 {
+    height: 30px;
+    width: 37px;
+    background-color: #ffffff;
+}
+
+.rectangle_2 {
+    height: 50px;
+    width: 50px;
+    background-color: #c4c4c4;
+    background-size: cover;
+}
+
+.rectangle_3 {
+    height: 224px;
+    width: 621px;
+    background-color: #ffffff;
+    border: 1px solid rgba(128, 128, 128, 0.30000001192092896);
+}
+
+.text_4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: Red Rose;
+    line-height: auto;
+    color: #000000;
+}
+
+.pic_comment {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+}
+
+.seperator_box {
+    border-top: solid #c4c4c4;
+    border-bottom: solid #c4c4c4;
+    padding: 10px 10px;
+}
